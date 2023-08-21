@@ -1,0 +1,3 @@
+.sub-search-bar-input:focus ~ .search-data-list {
+    display: flex;
+}

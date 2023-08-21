@@ -1,0 +1,18 @@
+.forceAuthContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.blurContainer {
+    background-image: url("../images/blur.png");
+    background-size: cover;
+    background-position: top center;
+}

@@ -1,0 +1,30 @@
+.sub-search-bar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 100%;
+}
+
+.sub-search-bar input {
+    width: 100%;
+    height: 100%;
+    padding: 0 .5rem;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.sub-search-bar-clear-x {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 2.5rem;
+    padding: 0 .2rem;
+    font-size: 1.5rem;
+    color: #0D6EFD;
+}
+
+.sub-search-bar-clear-x span {
+    margin: auto 0;
+}

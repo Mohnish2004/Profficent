@@ -1,0 +1,243 @@
+.home {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color:#41464E;
+}
+
+a:hover {
+    color:#41464E;
+}
+
+.header-logo-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.7rem;
+    line-height: 120%;
+    color: #18A0FB;
+    margin-top: 0.8rem;
+}
+
+.divider-spacing1 {
+    margin-top: 8%;
+}
+
+.divider-spacing2 {
+    margin-top: 20%;
+}
+
+h1 {
+    /* Header 1 */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.625rem;
+    line-height: 120%;
+    /* or 70px */
+
+    /* Text Color */
+
+    color: #41464E;
+
+}
+
+/* p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 150%;
+    color: #1D1D1F;
+} */
+
+.heading-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 200%;
+    color: #41464E;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.instruction-text {
+    margin-top: 5%;
+    color: #8A8894;
+    text-align: center;
+}
+
+.padded-cols {
+    padding-left: 3%;
+    padding-right: 3%;
+    height: auto;
+}
+
+.text-padding {
+    margin-bottom: 10%;
+}
+
+.logo-container {
+    height: 100%;
+    width: 100%;
+}
+
+.push-logo-left {
+    margin-left: -5%;
+}
+
+.push-logo-right {
+    margin-right: 5%;
+}
+
+.logo-small {
+   /* width: 120%; */
+   margin-top: 0.5rem;
+}
+
+.title1 {
+    margin-top: 15%;
+}
+
+.title2 {
+    margin-left: 5%;
+}
+
+.bobina {
+    background-color: red;
+}
+
+.bob {
+    background-color: blue;
+}
+
+.bobby {
+    background-color: purple;
+}
+.subtitle1 {
+    /* Subtitle 1 */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 200%;
+    /* or 48px */
+
+    /* Text Color */
+    color: #41464E;
+
+    margin-left: -20%;
+
+}
+
+.subtitle-margin1 {
+    margin-top: 50%;
+    margin-left: -40%;
+}
+
+.subtitle-margin2 {
+    /* for some reason margin doesn't work so i'll force it to listen to me :<  */
+    margin-left: -40% !important;
+}
+
+.subtitle2 {
+    /* Body 1 */
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    /* Text Grey/primary */
+
+    color: #8A8894;
+
+    margin-left: -20%;
+}
+
+.subtitle3 {
+    /* Subtitle 1 */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 200%;
+    /* or 48px */
+
+    /* Text Color */
+
+    color: #41464E;
+
+}
+
+.subtitle4 {
+    /* Body 1 */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    /* Text Grey/primary */
+
+    color: #8A8894;
+
+}
+
+.oneLineDescription {
+    font-size: 1.375rem;
+    margin-top: 2%;
+    /* margin-left:5%; */
+
+    /* Subtitle 2 */
+    font-style: normal;
+    font-weight: 600;
+
+    line-height: 130%;
+    /* or 29px */
+
+    text-align: center;
+
+    /* Text Color */
+
+    color: #41464E;
+}
+
+.searchbar-container {
+    width: 80%;
+}
+.bar {
+    margin-top: 2%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titlecontainer21 {
+    margin-top: 20%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 200%;
+    color: #41464E;
+}
+
+.titlecontainer22 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 200%;
+    color: #41464E;
+}
+
+.titlecontainer23 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 200%;
+    color: #41464E;
+}
+
+.gettingStarted {
+    margin-bottom: 5%;;
+}

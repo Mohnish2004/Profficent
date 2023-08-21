@@ -1,0 +1,10 @@
+.search-icon {
+    width: fit-content;
+    flex: 0 0 fit-content;
+    height: 100%;
+    cursor: pointer;
+}
+
+.search-icon-img {
+    height: 100%;
+}

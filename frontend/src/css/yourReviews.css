@@ -1,0 +1,85 @@
+.profile {
+    border: 1px solid black;
+    width: 68px;
+    height: 48px;
+    left: 66px;
+    top: 288px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 200%;
+    color: #1D1D1F;
+}
+
+.review {
+    margin-top: -9%;
+    margin-bottom: 12%;
+    min-width: 200px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    border-radius: 10px;
+    border: 3px #E5E5E5 solid;
+}
+
+.reviewScore {
+    margin-right: 10px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.outOfScore {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.thumb-img {
+    margin-top: -6%;
+}
+
+.thumb-img {
+    margin-right: 4%;
+}
+
+.blur-img {
+    position: absolute;
+    margin-top: -15%;
+    width: 100%;
+}
+
+.boldLettersForDelete {
+    padding-top: 10%;
+    padding-left: 35%;
+    padding-bottom: 3%;
+    font-weight: 600;
+}
+
+.editOption {
+    position: relative;
+    margin-top: 10%;
+    margin-left: 38%;
+    padding: 1%;
+    color: #0B2B58;
+    text-align: center;
+    background-color: white;
+    height: 100%;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.nonBoldedLetters {
+    padding-bottom: 10%;
+}
+
+.noReviews {
+    display: flex;
+    /* margin-bottom: 10px; */
+    justify-content: space-between;
+    flex-direction: row;
+    width: 50%;
+    height: 136px;
+    padding: 40px 40px 40px 40px;
+    margin: 5% 20% 0 0;
+    border: 3px solid #F6F5F8;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+}

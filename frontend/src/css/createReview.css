@@ -1,0 +1,148 @@
+.create-review {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.vertical-progress-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 25%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 1rem 2rem;
+}
+
+.submit-create-review-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.submit-create-review {
+    margin-top: .5rem;
+    min-width: 20%;
+    max-width: 50%;
+    height: 2.5rem;
+    border-radius: .5rem;
+    border-width: 0;
+    background-color: #FF9473;
+    font-size: 1.2rem;
+    color: #F6F5F8;
+}
+
+.submit-create-review:hover {
+    background-color: #4F966D;
+    border-color: #4F966D;
+}
+
+.create-review-main {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.vertical-progress-wrapper,
+.create-review-main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+.vertical-progress-wrapper::-webkit-scrollbar,
+.create-review-main::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.customized-form-card {
+    /* Additional Padding and Minimum Height */
+    min-height: 60%;
+    padding: .5rem 1rem;
+    border: 1px solid #F6F5F8;
+    filter: drop-shadow(15px 5px 4px #F6F5F8) drop-shadow(-5px -5px 4px #F6F5F8);
+    margin-bottom: 4rem;
+}
+
+.customized-form-card:last-child {
+    margin-bottom: .25rem;
+}
+
+.customized-form-card-title {
+    font-size: 1.75rem;
+}
+
+.customized-form-card-inputs {
+    /* Unused Class */
+}
+
+.custom-input-set {
+    margin: 2rem 0;
+}
+
+.custom-input-set-title {
+    font-size: 1.25rem;
+    color: #8A8894;
+}
+
+.custom-input-set-description {
+    color: #8A8894;
+    margin-bottom: .25rem;
+}
+
+.custom-form-control {
+    margin: .5rem 0;
+}
+
+.filtered-text-area-container {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.filtered-text-area-error-box {
+    display: flex;
+    flex: 1;
+    margin-left: .5rem;
+    padding: .375rem .75rem;
+    border-radius: .2rem;
+    border: 1px solid #ED6E64;
+}
+
+.hide-error-box {
+    display: none;
+}
+
+.custom-form-textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 60%;
+}
+
+.custom-form-textarea-word-count {
+    color: #8A8894;
+}
+
+.too-long {
+    color: #DC3545;
+}
+
+/* Disables the up and down arrows on number inputs */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}

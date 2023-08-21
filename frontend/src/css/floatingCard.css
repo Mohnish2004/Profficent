@@ -1,0 +1,47 @@
+.forceAuthSpinner {
+    animation: spin .65s infinite linear;
+    transform-origin: 50% 50%;
+    width: 20vmin;
+    height: 20vmin;
+    margin: 1rem;
+    border-radius: 50%;
+    border: 1rem solid transparent;
+    border-left-color: #15A0FB;
+}
+
+.blurCard {
+    border-radius: .5rem;
+    background-color: #FFFFFF;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(15px 5px 4px #DDDDDD) drop-shadow(-5px -5px 4px #E5E5E5);
+}
+
+.blurCardImage {
+    max-height: 40vh;
+    padding: 2rem;
+}
+
+.blurButton {
+    min-width: 70%;
+    cursor: pointer;
+    background-color: #00A1FF;
+    color: #FFFFFF;
+    padding: .5rem;
+    margin: 1rem 0;
+    border-radius: .25rem;
+    font-size: 120%;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,29 @@
+.search-data-list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    padding: 2px 5%;
+    background-color: #F6F5F8;
+    color: black;
+    cursor: pointer;
+}
+
+.search-data-list-item:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.search-data-list-item:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.search-data-list-item:hover {
+    background-color: #DEDEDE;;
+}
+
+.search-data-list-item p {
+    margin: 0;
+    padding: .25rem;
+}

@@ -1,0 +1,411 @@
+.reviewPage {
+    position: relative;
+}
+
+.myRow {
+    padding-top: 2%;
+    padding-left: 1%;
+}
+
+.mycontainer {
+    display: flex;
+    margin: 0 0 10px;
+}
+
+.review-component-col {
+    margin-bottom: 2.5%;
+}
+
+.ClassContainer {
+    display: flex;
+    /* justify-content: inherit; */
+    flex-direction: column;
+    width: 214px;
+    padding: 20px 20px 20px 20px;
+    /* margin: 20px 0 10px; */
+    margin-top: 20px;
+    border: solid 2px #F6F5F8;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 4px 12px;
+    border-radius: 5px;
+}
+
+.review-container {
+    border: 2px solid #F6F5F8;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 4px 12px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.no-reviews-container {
+    height: 10rem;
+    margin-left: -5%;
+}
+
+.NoReviewTextContainer {
+    display: table;
+}
+
+.NoReviewText {
+    /* margin-top: 1.5%; */
+
+    /* Subtitle 2 */
+    text-align: center;
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 130%;
+    /* or 29px */
+    display: table-cell;
+
+    /* Text Color */
+
+    color: #41464E;
+}
+
+.NoReviewsContainer {
+    display: flex;
+    margin-left: -7%;
+    margin-right: 6%;
+    margin-bottom: 10px;
+    /* justify-content: inherit; */
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    /* margin-top: 4%; */
+    border: solid 2px #F6F5F8;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 4px 12px;
+}
+
+.starlabel {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    display: inline-block;
+    text-align: left;
+    width: 15px;
+}
+
+.progressbar {
+    width: 250px;
+    border-radius: 3px;
+    border: 1px solid #C9C8D3;
+    margin-left: 5px;
+    height: 12px;
+}
+
+.progressbar::-webkit-progress-value {
+    border-radius: 2px 0 0 2px;
+    background-color: #FF9473;
+}
+
+.progressbar::-webkit-progress-bar {
+    border-radius: 2px;
+    background-color: white;
+}
+
+.percentage {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: left;
+    width: 30px;
+}
+
+.rectangle {
+    border-radius: 4px;
+    width: 160px;
+    height: 100px;
+    background-color: #F6F5F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.ratings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RatingLabelOne { /* imported from figma */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 200%;
+    /* identical to box height, or 72px */
+    height: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+
+    /* Dark Blue/Primary */
+
+    color: #18A0FB;
+}
+
+.RatingLabelTwo { /* imported from figma */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    height: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: 5px;
+    /* Dark Blue/Primary */
+    color: #18A0FB;
+}
+
+.OverallRating {
+    font-style: normal;
+    color: #18A0FB;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.test {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.NumRatings {
+    font-style: normal;
+    color: #18A0FB;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 80%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.CourseTitle {
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #41464E;
+}
+
+.CourseSubTitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #41464E;
+}
+
+.CourseProfessor {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #18A0FB;
+    margin: 0 0 10px;
+}
+
+.ReviewButton {
+    background-color: #18A0FB;
+    border: none;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    width: 210px;
+    height: 53px;
+    border-radius: 5px;
+}
+
+.noReviewButtonMoveDown {
+    margin-top: 7%;
+}
+
+.heading-text {
+    font-size: 1rem;
+    color: #41464E;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 2%;
+}
+
+.subheading-text {
+    font-style: normal;
+    font-size: 0.75rem;
+    color: #41464E;
+    margin-top:-2%;
+}
+
+.bars {
+    margin-bottom: 30px;
+}
+
+.AnonymousContainer {
+    display: flex;
+    /* justify-content: inherit; */
+    flex-direction: column;
+    align-items: center;
+    width: 214px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 0 10px;
+    border: solid 2px #F6F5F8;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 4px 12px;
+    border-radius: 8px;
+}
+
+.anonText { /* imported from figma */
+    /* Tag Body 1 */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 111% */
+
+    /* Text Color */
+
+    color: #41464E;
+}
+
+.anonParagraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 140%;
+    /* or 14px */
+    text-align: center;
+
+    /* Text Color */
+
+    color: #41464E;
+}
+
+.create {
+    background-color: #18A0FB;
+    border: none;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    width: 142px;
+    height: 36px;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 19px;
+    margin-top: 15px;
+}
+
+.myCol {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+#dropdownButton {
+    margin-top: -1%;
+    margin-bottom: 3.5%;
+    color: black;
+    background-color: #F6F5F8;
+    border-color: #F6F5F8;
+}
+
+.reviewPage {
+    position: relative;
+}
+
+.navbar-center {
+    /* background-color: red; */
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo-title {
+    /* margin-top: auto;
+    margin-bottom: auto;   */
+    margin-left: -30%;
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 12px; */
+    line-height: 20px;
+    /* or 167% */
+
+    color: #000000;
+}
+
+.noReviewMoveUp {
+    margin-top: -4.5%;
+}
+
+.profile {
+    border: none !important;
+    width: 200% !important;
+    margin-left: -80%;
+}
+
+.noReviews {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 966px;
+    height: 136px;
+    padding: 40px 40px 40px 40px;
+    margin: 90px 0 10px;
+    border: 3px solid #F6F5F8;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+}
+
+.noReviewHeader {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 130%;
+    /* or 29px */
+
+    /* Text Color */
+
+    color: #41464E;
+    margin-bottom: 5px;
+}
+
+.noReviewSubHeader {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    /* Text Color */
+
+    color: #41464E;
+}
+
+.noReviewButton {
+    background-color: #18A0FB;
+    border: none;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    width: 209px;
+    height: 54px;
+    border-radius: 6px;
+}
+
+.option-text {
+    font-size: 15px;
+}

@@ -1,0 +1,77 @@
+.review-section {
+    overflow-y: scroll;
+    margin: 2.5%;
+}
+
+.edit-icon-col {
+    /* margin-top: 1.5rem; */
+    cursor:pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-icon {
+    background-image: url("/src/images/icons/edt.svg");
+    background-color: #FFF;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.edit-icon:hover {
+    background-image: url("/src/images/icons/edtactive.svg");
+    transition: all 0.2s ease-in;
+}
+
+.trash-icon {
+    color: #c9c8d3;
+}
+
+.trash-icon:hover {
+    transition: all 0.2s ease-in;
+    color: red;
+}
+
+.modal-title {
+    padding: 0; 
+    width: 100%
+}
+
+.modal-body {
+    width: 100%;
+}
+
+.modal-content {
+    height: fit-content !important;
+    padding-bottom: 10px !important;
+    width: 100% !important; 
+    top: 45% !important; 
+}
+
+.my-review-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.heading-text {
+    font-size: 1.5rem;
+    color: #41464E;
+    font-weight: 600;
+}
+
+.subheading-text {
+    font-style: normal;
+    font-size: 1rem;
+    color: #41464E;
+}
+
+.form-sub-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.form-sub-container2 {
+    margin-top: 2%;
+    margin-bottom: 2%; 
+}

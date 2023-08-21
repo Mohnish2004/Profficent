@@ -1,0 +1,32 @@
+.likert-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.likert-container div {
+    width: 100%;
+    padding-right: 2px;
+}
+
+.likert-container div:last-child {
+    padding-right: 0;
+}
+
+.likert-container div div {
+    width: 100%;
+    height: 100%;
+    background-color: #F6F5F8;
+}
+
+.likert-container div div:hover {
+    background-color: #AFDFFF;
+}
+
+.likert-container div div.active {
+    background-color: #69C3FF;
+}

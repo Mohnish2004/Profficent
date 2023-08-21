@@ -1,0 +1,35 @@
+.footer {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.logo-text {
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 120%;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.sub-text {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    color: #656469;
+}
+
+.codelab-icon {
+    margin-top: -5.5%;
+    margin-left: 1%;
+}
+
+.sub-title {
+    margin-top: 15%;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #656469;
+}
+
+.sub-title-margin {
+    margin-top: 11%;
+}

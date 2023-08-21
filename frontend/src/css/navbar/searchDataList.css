@@ -1,0 +1,18 @@
+.search-data-list {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    padding: .25rem;
+    overflow: auto;
+    z-index: 1;
+}
+
+.search-data-list-show {
+    display: flex;
+}
+
+.search-data-list::-webkit-scrollbar {
+    display: none;
+}

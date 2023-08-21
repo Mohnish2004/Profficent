@@ -1,0 +1,10 @@
+.buttonColor {
+    background-color: #18A0FB;
+    outline-color: #18A0FB;
+    color: white;
+    border: 2px solid #18A0FB;
+}
+
+.color-grey {
+    color: #8a8894;
+}

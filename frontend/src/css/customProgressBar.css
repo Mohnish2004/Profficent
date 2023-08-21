@@ -1,0 +1,26 @@
+/* Class names found via inspector from react-progress-bar */
+.RSPBprogressBar, .RSPBprogression {
+    border-radius: 0 !important; /* Bad style but forcing the property is not too bad an idea in this case */
+}
+
+.progress-bullet {
+    width: 0;
+    height: 0;
+    padding: 0;
+    background-color: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress-bullet.accomplished {
+    background-color: #00A1FF;
+}
+
+.bullet-text-container {
+    position: relative;
+    top: .75rem;
+    width: 10%;
+    text-align: center;
+    min-width: 10vw;
+}
